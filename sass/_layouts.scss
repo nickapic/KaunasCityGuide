@@ -1,0 +1,29 @@
+.header {
+  max-height: 7vh;
+  background-color: #f0c15a;
+  padding: 0 2rem;
+  font-size: 1.3rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  &_navigation {
+    display: flex;
+    align-items: center;
+    &-links {
+      margin-right: 1.5rem;
+      list-style: none;
+    }
+  }
+}
+
+.hero_section {
+  background-color: orangered;
+  &-main_image {
+    height: 63vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/Z2yLz0m/DSC04604-2.jpg);
+
+    width: 100vw;
+  }
+}
