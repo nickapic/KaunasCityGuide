@@ -7,6 +7,10 @@ body {
   margin: 0;
   padding: 0; }
 
+.home_page {
+  overflow-y: hidden;
+  overflow-x: hidden; }
+
 .header {
   max-height: 7vh;
   background-color: #f0c15a;
@@ -22,11 +26,24 @@ body {
       margin-right: 1.5rem;
       list-style: none; }
 
-.hero_section {
-  background-color: orangered; }
-  .hero_section-main_image {
-    height: 63vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(https://i.ibb.co/Z2yLz0m/DSC04604-2.jpg);
-    width: 100vw; }
+.hero_section-main_image {
+  height: 63vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://i.ibb.co/Z2yLz0m/DSC04604-2.jpg);
+  width: 100vw; }
+
+.hero_section-bottom_section {
+  display: flex;
+  height: 31vh;
+  width: 100vw; }
+  .hero_section-bottom_section-1 {
+    height: 100%;
+    width: 50%;
+    background-color: #f3ef82; }
+  .hero_section-bottom_section-2 {
+    height: 100%;
+    width: 50%;
+    background-color: #f0c15a; }
