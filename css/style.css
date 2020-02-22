@@ -101,6 +101,10 @@ p {
   .hero_section-main-button:hover {
     background-color: #420124; }
 
+  .hero_section-main-button:hover{
+    background-color:#420124;
+  }
+
 .hero_section-bottom_section {
   display: flex;
   height: 31vh;
