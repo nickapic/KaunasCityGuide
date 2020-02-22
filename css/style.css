@@ -3,7 +3,7 @@ html {
   box-sizing: border-box; }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway";
   margin: 0;
   padding: 0; }
 
@@ -13,11 +13,12 @@ body {
 
 .header {
   max-height: 7vh;
-  background-color: #f0c15a;
+  background-color: #72033f;
   padding: 0 2rem;
   font-size: 1.3rem;
   align-items: center;
   display: flex;
+  color: white;
   justify-content: space-between; }
   .header_navigation {
     display: flex;
@@ -42,8 +43,8 @@ body {
   .hero_section-bottom_section-1 {
     height: 100%;
     width: 50%;
-    background-color: #f3ef82; }
+    background-color: #72033f; }
   .hero_section-bottom_section-2 {
     height: 100%;
     width: 50%;
-    background-color: #f0c15a; }
+    background-color: white; }

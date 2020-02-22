@@ -1,10 +1,11 @@
 .header {
   max-height: 7vh;
-  background-color: #f0c15a;
+  background-color: #72033f;
   padding: 0 2rem;
   font-size: 1.3rem;
   align-items: center;
   display: flex;
+  color: white;
   justify-content: space-between;
   &_navigation {
     display: flex;
@@ -34,11 +35,11 @@
   &-1 {
     height: 100%;
     width: 50%;
-    background-color: #f3ef82;
+    background-color: #72033f;
   }
   &-2 {
     height: 100%;
     width: 50%;
-    background-color: #f0c15a;
+    background-color: white;
   }
 }
