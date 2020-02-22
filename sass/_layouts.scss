@@ -1,13 +1,16 @@
 .header {
-  max-height: 10rem;
-  background-color: #72033f;
+  max-height: 100rem;
+  width: 97%;
+  background-color: $primary-colour;
   padding: 0 4rem;
   font-size: 1.5rem;
   align-items: center;
   display: flex;
   color: white;
+  position: fixed;
   justify-content: space-between;
   &_navigation {
+    height: 3.5rem;
     display: flex;
     align-items: center;
     &-links {
@@ -21,13 +24,33 @@
 
 .hero_section {
   &-main_image {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("../img/hero-section.jpg");
+    background-image: url("../img/hero-section.png");
     width: 100vw;
+  }
+  &-main-heading {
+    margin-left: 4rem;
+    font-size: 6.5rem;
+    color: white;
+    width: 60%;
+  }
+  &-main-button {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 2rem 3rem;
+    margin: 4rem;
+    background-color: $primary-colour;
   }
 }
 .hero_section-bottom_section {

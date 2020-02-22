@@ -12,16 +12,55 @@ header {
   overflow-y: hidden;
   overflow-x: hidden; }
 
+h1,
+h2,
+p {
+  margin: 0; }
+
+.categories {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  text-align: center; }
+  .categories-headline {
+    font-size: 4rem;
+    margin: 8rem 0 4rem 0;
+    text-transform: uppercase;
+    color: #72033f; }
+  .categories-cards {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 1rem auto;
+    flex-wrap: wrap; }
+  .categories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #72033f;
+    color: white;
+    padding: 2rem 3rem;
+    margin: 1rem 3rem; }
+    .categories-card-heading {
+      justify-content: flex-start;
+      font-size: 2.3rem;
+      text-transform: uppercase; }
+    .categories-card-content {
+      margin: 1rem 0;
+      font-size: 1.5rem; }
+
 .header {
-  max-height: 10rem;
+  max-height: 100rem;
+  width: 97%;
   background-color: #72033f;
   padding: 0 4rem;
   font-size: 1.5rem;
   align-items: center;
   display: flex;
   color: white;
+  position: fixed;
   justify-content: space-between; }
   .header_navigation {
+    height: 3.5rem;
     display: flex;
     align-items: center; }
     .header_navigation-links {
@@ -31,13 +70,33 @@ header {
       list-style: none; }
 
 .hero_section-main_image {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../img/hero-section.jpg");
+  background-image: url("../img/hero-section.png");
   width: 100vw; }
+
+.hero_section-main-heading {
+  margin-left: 4rem;
+  font-size: 6.5rem;
+  color: white;
+  width: 60%; }
+
+.hero_section-main-button {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 2rem 3rem;
+  margin: 4rem;
+  background-color: #72033f; }
 
 .hero_section-bottom_section {
   display: flex;
