@@ -33,13 +33,3 @@
     }
   }
 }
-@include respond(1100px) {
-  html {
-    font-size: 58%;
-  }
-}
-@include respond(800px) {
-  html {
-    font-size: 30%;
-  }
-}

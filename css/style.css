@@ -48,14 +48,6 @@ p {
       margin: 1rem 0;
       font-size: 1.5rem; }
 
-@media only screen and (max-width: 1100px) {
-  html {
-    font-size: 58%; } }
-
-@media only screen and (max-width: 800px) {
-  html {
-    font-size: 30%; } }
-
 .header {
   max-height: 100rem;
   width: 97%;
@@ -121,3 +113,30 @@ p {
     height: 100%;
     width: 50%;
     background-color: white; }
+
+.content-box {
+  padding: 10rem 4rem; }
+  .content-box_heading {
+    font-size: 3rem;
+    color: #72033f; }
+  .content-box_paragraph {
+    padding: 2rem 0;
+    font-size: 1.5rem; }
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 60%; }
+  .hero_section-main-heading {
+    font-size: 5rem;
+    width: 75%; } }
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 45%; } }
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 45%; }
+  .hero_section-main-heading {
+    font-size: 4rem;
+    width: 85%; } }

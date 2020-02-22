@@ -72,3 +72,39 @@
     background-color: white;
   }
 }
+
+.content-box {
+  padding: 10rem 4rem;
+  &_heading {
+    font-size: 3rem;
+    color: $primary-colour;
+  }
+  &_paragraph {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+  }
+}
+@include respond(1200px) {
+  html {
+    font-size: 60%;
+  }
+  .hero_section-main-heading {
+    font-size: 5rem;
+    width: 75%;
+  }
+}
+@include respond(800px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@include respond(800px) {
+  html {
+    font-size: 45%;
+  }
+  .hero_section-main-heading {
+    font-size: 4rem;
+    width: 85%;
+  }
+}
