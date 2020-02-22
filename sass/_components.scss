@@ -1,5 +1,4 @@
 .categories {
-  scroll-behavior: smooth;
   min-height: 100vh;
   text-align: center;
   &-headline {
@@ -11,7 +10,7 @@
   }
   &-cards {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     margin: 1rem auto;
     flex-wrap: wrap;

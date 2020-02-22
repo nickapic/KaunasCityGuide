@@ -47,10 +47,14 @@
     text-transform: uppercase;
     font-weight: 700;
     color: white;
+    transition: all 0.2s ease-in;
     text-decoration: none;
     padding: 2rem 3rem;
     margin: 4rem;
     background-color: $primary-colour;
+    &:hover {
+      background-color: #420124;
+    }
   }
 }
 .hero_section-bottom_section {
